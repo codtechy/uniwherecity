@@ -478,12 +478,12 @@ nav .nav-item img {
   left: 160px;
 }
 .services .carousel-control-next-icon {
-  background-image: url("./images/arrow_purple.png") !important;
+  background-image: url("images/arrow_purple.png") !important;
   width: 20px;
   height: 20px;
 }
 .services .carousel-control-prev-icon {
-  background-image: url("./images/arrow_purple_left.png") !important;
+  background-image: url("images/arrow_purple_left.png") !important;
   width: 20px;
   height: 20px;
 }
@@ -493,10 +493,10 @@ nav .nav-item img {
 }
 
 .services .carousel-control-next:hover .carousel-control-next-icon {
-  background-image: url("./images/arrow_white.png") !important;
+  background-image: url("/images/arrow_white.png") !important;
 }
 .services .carousel-control-prev:hover .carousel-control-prev-icon {
-  background-image: url("./images/arrow_white_left.png") !important;
+  background-image: url("/images/arrow_white_left.png") !important;
 }
 .services .content {
   margin-left: 80px;
