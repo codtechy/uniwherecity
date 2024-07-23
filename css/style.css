@@ -58,7 +58,6 @@ body {
   transform: translatey(0);
 }
 
-
 /* animation */
 a {
   text-decoration: none;
@@ -277,7 +276,6 @@ nav .nav-item img {
   }
 
   .home .icons.icon1 {
-
     left: 130px;
     top: 40px;
   }
@@ -286,12 +284,10 @@ nav .nav-item img {
     top: 180px;
   }
   .home .icons.icon3 {
-
     left: -20px;
     top: 533px;
   }
   .home .icons.icon4 {
-
     right: 30px;
     top: 73px;
   }
@@ -459,8 +455,12 @@ nav .nav-item img {
   .about .content p {
     margin-bottom: 15 !important;
     padding-bottom: 0 !important;
-    font-size: 15px;
-    line-height: 27px;
+    font-family: Microsoft Sans Serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 35px;
+text-align: justify;
+
   }
   .about .about-icon {
     margin-left: 50px;
@@ -497,11 +497,9 @@ nav .nav-item img {
 }
 .services .carousel-control-prev {
   left: 100px;
-
 }
 .services .carousel-control-next {
   left: 160px;
-
 }
 .services .carousel-control-next-icon,
 .services .carousel-control-prev-icon {
@@ -602,13 +600,13 @@ nav .nav-item img {
   height: 58px;
 }
 .services .box .card h3 {
-  font-family: Arial;
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 23px;
-  text-align: center;
   color: #000;
   margin-top: 10px;
+  font-family: Arial Rounded MT Bold;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: center;
 }
 .services .swiper-button-prev {
   top: 100%;
@@ -653,7 +651,7 @@ nav .nav-item img {
   .services .content {
     margin-left: 20px;
   }
-  .services .main-title{
+  .services .main-title {
     margin-left: 20px;
   }
   .services .content p {
@@ -676,7 +674,7 @@ nav .nav-item img {
 }
 @media only screen and (max-width: 767px) {
   .services {
-    height: 650px;
+    height: 580px;
   }
   .services .box .card .img img {
     width: 55px;
@@ -711,16 +709,15 @@ nav .nav-item img {
   .services .carousel-control-prev {
     left: 70%;
     display: block;
-      height: 60px;
-      margin-top: 30px;
+    height: 60px;
+    margin-top: 30px;
   }
   .services .carousel-control-next {
     left: 80%;
     display: block;
-      height: 60px;
-      margin-top: 30px;
+    height: 60px;
+    margin-top: 30px;
   }
-
 }
 @media only screen and (max-width: 500px) {
   .services .carousel-control-prev {
@@ -941,14 +938,14 @@ nav .nav-item img {
 }
 
 .advantages .content p {
-  font-family: sans-serif;
-  font-size: 22px;
-  font-weight: 400;
-  line-height: 45px;
-  text-align: left;
-  color: #000000b2;
+  font-family: Microsoft Sans Serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 39px;
+text-align: left;
+
 }
-.advantages .img img{
+.advantages .img img {
   width: 299px;
   height: 439px;
 }
@@ -970,16 +967,18 @@ nav .nav-item img {
     margin-top: 0px;
   }
   .advantages .content p {
+    font-family: Microsoft Sans Serif;
     font-size: 15px;
     font-weight: 400;
     line-height: 25px;
+    text-align: left;
+    color: #000000b2;
   }
-  .advantages .img img{
+  .advantages .img img {
     width: 246px;
     height: 362px;
   }
 }
-
 
 /* advantages end */
 
@@ -1053,11 +1052,12 @@ nav .nav-item img {
   margin: 15px 0;
 }
 .benefits .contents p {
-  font-family: sans-serif;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 25px;
-  text-align: justify;
+  font-family: Microsoft Sans Serif;
+font-size: 15px;
+font-weight: 400;
+line-height: 25px;
+text-align: justify;
+
 }
 .benefits .contents .elipse {
   width: 35px;
@@ -1399,7 +1399,6 @@ nav .nav-item img {
   }
 }
 
-
 @media only screen and (max-width: 400px) {
   .testimonial .box .review p {
     font-size: 15px;
@@ -1417,7 +1416,6 @@ nav .nav-item img {
 
   .testimonial button {
     top: 30%;
-
   }
   .testimonial .img img {
     width: 250px;
@@ -1450,7 +1448,7 @@ nav .nav-item img {
   font-weight: 700;
   line-height: 57.5px;
   text-align: left;
-  background: linear-gradient(180deg, #ED1942 0%, #4E3581 100%);
+  background: linear-gradient(180deg, #ed1942 0%, #4e3581 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
