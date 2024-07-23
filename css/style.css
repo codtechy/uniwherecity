@@ -15,37 +15,31 @@
 }
 @media only screen and (min-width: 992px) and (max-device-width: 1200px) and (orientation: portrait) {
   .container-fluid {
-    /* padding: 0 50px; */
     width: 900px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .container-fluid {
-    /* padding: 0 70px; */
     width: 1150px;
   }
 }
 @media only screen and (min-width: 1300px) {
   .container-fluid {
-    /* padding: 0 70px; */
     width: 1250px;
   }
 }
 @media only screen and (min-width: 1400px) {
   .container-fluid {
-    /* padding: 0 70px; */
     width: 1350px;
   }
 }
 @media only screen and (min-width: 1500px) {
   .container-fluid {
-    /* padding: 0 70px; */
     width: 1450px;
   }
 }
 @media only screen and (min-width: 1600px) {
   .container-fluid {
-    /* padding: 0 70px; */
     width: 1550px;
   }
 }
@@ -53,6 +47,19 @@ body {
   overflow-x: hidden;
   overflow-y: scroll;
 }
+/* animation */
+.bottomToTop {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: all 1.3s;
+}
+.show {
+  opacity: 1;
+  transform: translatey(0);
+}
+
+
+/* animation */
 a {
   text-decoration: none;
   color: #000;
@@ -522,10 +529,11 @@ nav .nav-item img {
 .services .content {
   margin-left: 80px;
 }
-.services .content h1 {
+.services .main-title {
   font-family: Arial Black;
   font-size: 50px;
   font-weight: 900;
+  margin-left: 80px;
   line-height: 70.51px;
   text-align: left;
 }
@@ -628,6 +636,9 @@ nav .nav-item img {
   .services .content {
     margin-left: 20px;
   }
+  .services .main-title{
+    margin-left: 20px;
+  }
   .services .content p {
     width: 300px;
   }
@@ -649,6 +660,10 @@ nav .nav-item img {
 @media only screen and (max-width: 767px) {
   .services {
     height: 600px;
+  }
+  .services .box .card .img img {
+    width: 55px;
+    height: 55px;
   }
   .services .box {
     margin-left: 30px;
@@ -909,6 +924,10 @@ nav .nav-item img {
   text-align: left;
   color: #000000b2;
 }
+.advantages .img img{
+  width: 299px;
+  height: 439px;
+}
 @media only screen and (max-width: 992px) {
   .advantages .content {
     margin: 0;
@@ -931,7 +950,12 @@ nav .nav-item img {
     font-weight: 400;
     line-height: 25px;
   }
+  .advantages .img img{
+    width: 246px;
+    height: 362px;
+  }
 }
+
 
 /* advantages end */
 
@@ -1108,6 +1132,10 @@ nav .nav-item img {
     height: 391px;
     width: 353px;
   }
+  .advantages .card .elipse img {
+    width: 65px;
+    height: 65px;
+  }
 
   .benefits .images .box h1 {
     font-size: 20px;
@@ -1228,23 +1256,21 @@ nav .nav-item img {
 .testimonial button {
   top: 50%;
   transform: translateY(-50%);
-
 }
 
-.testimonial .carousel-control-next{
+.testimonial .carousel-control-next {
   justify-content: right;
   opacity: 1;
   display: block;
   width: 50px;
   height: 50px;
 }
-.testimonial .carousel-control-prev{
+.testimonial .carousel-control-prev {
   justify-content: left;
   opacity: 1;
   display: block;
   width: 50px;
   height: 50px;
-
 }
 .testimonial .carousel-control-next-icon,
 .testimonial .carousel-control-prev-icon {
@@ -1338,17 +1364,18 @@ nav .nav-item img {
   }
   .testimonial .img img {
     width: 275px;
-    height: 275px;
+    height: 251px;
     border-radius: 10px;
     margin: auto;
   }
-
 }
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 700px) {
   .testimonial button {
     top: 30%;
   }
 }
+
+
 @media only screen and (max-width: 400px) {
   .testimonial .box .review p {
     font-size: 15px;
@@ -1363,14 +1390,16 @@ nav .nav-item img {
     line-height: 28px;
     text-align: right !important;
   }
-  .testimonial .img img {
-    width: 275px;
-    height: 275px;
-    border-radius: 10px;
-    margin: auto;
-  }
+
   .testimonial button {
     top: 30%;
+
+  }
+  .testimonial .img img {
+    width: 250px;
+    height: 230px;
+    border-radius: 10px;
+    margin: auto;
   }
 }
 
@@ -1397,7 +1426,9 @@ nav .nav-item img {
   font-weight: 700;
   line-height: 57.5px;
   text-align: left;
-  color: red;
+  background: linear-gradient(180deg, #ED1942 0%, #4E3581 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .programmes .content p {
   font-family: sans-serif;
