@@ -73,9 +73,7 @@ a:hover {
 }
 
 /* Nav Bar start */
-/* nav {
-  height: 94px;
-} */
+
 nav .navbar-brand img {
   width: 220px;
   height: 51px;
@@ -379,8 +377,8 @@ nav .nav-item img {
 .about .about-img {
   position: absolute;
   width: 600.68px;
-  height: 450.29px;
-  top: 1000px;
+  height: 475.29px;
+  top: 950px;
   left: -11px;
 }
 .about .about-icon {
@@ -395,34 +393,25 @@ nav .nav-item img {
   .about .about-img {
     width: 510.68px;
     height: 420.29px;
-    top: 1000px;
-    left: -11px;
+    top: 980px;
   }
 }
 @media only screen and (max-width: 1200px) {
-  .about .about-img {
-    width: 510.68px;
-    height: 420.29px;
-    top: 1000px;
-    left: -11px;
-  }
   .about .content p,
   .boxes {
     margin-right: 0px;
   }
   .about .about-img {
     width: 400.68px;
-    height: 400.29px;
-    top: 1000px;
-    left: -11px;
+    height: 370.29px;
+    top: 980px;
   }
 }
 @media only screen and (max-width: 992px) {
   .about .about-img {
     width: 400.68px;
-    height: 400.29px;
-    top: 1000px;
-    left: -11px;
+    height: 360.29px;
+    top: 950px;
   }
   .about .content .main-title {
     font-size: 45px;
@@ -456,11 +445,10 @@ nav .nav-item img {
     margin-bottom: 15 !important;
     padding-bottom: 0 !important;
     font-family: Microsoft Sans Serif;
-font-size: 20px;
-font-weight: 400;
-line-height: 35px;
-text-align: justify;
-
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: justify;
   }
   .about .about-icon {
     margin-left: 50px;
@@ -939,11 +927,10 @@ text-align: justify;
 
 .advantages .content p {
   font-family: Microsoft Sans Serif;
-font-size: 20px;
-font-weight: 400;
-line-height: 39px;
-text-align: left;
-
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 39px;
+  text-align: left;
 }
 .advantages .img img {
   width: 299px;
@@ -1053,11 +1040,10 @@ text-align: left;
 }
 .benefits .contents p {
   font-family: Microsoft Sans Serif;
-font-size: 15px;
-font-weight: 400;
-line-height: 25px;
-text-align: justify;
-
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: justify;
 }
 .benefits .contents .elipse {
   width: 35px;
@@ -1747,3 +1733,102 @@ footer hr {
     line-height: 18.4px;
   }
 }
+
+/*  */
+
+/*  */
+
+/* page header start */
+
+.page-header {
+  background: #f6f1fc;
+  padding: 50px;
+}
+
+.page-header .title h2 {
+  color: var(--secondary-color);
+  font-family: Righteous;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.page-header .title p a {
+  color: var(--secondary-color);
+  font-family: Righteous;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+/* page header end */
+
+/*  */
+
+/* contact-page start */
+
+.contact-page .contact-us hr {
+  width: 100px;
+  height: 5px;
+  background: var(--primary-color);
+  opacity: 1;
+  margin: auto;
+}
+.contact-page .contact-us h2 {
+  font-family: Arial Black;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 42.3px;
+  text-align: left;
+}
+
+.contact-page .contact-us .details {
+  text-align: center;
+  background: #f6f1fc;
+  padding: 30px 0;
+  border-radius: 10px;
+  transition: 0.4s;
+  margin: 20px 0;
+}
+.contact-page .contact-us .details i {
+  border: 1px solid black;
+  padding: 13px;
+  border-radius: 10%;
+  background: var(--secondary-color);
+}
+.contact-page .contact-us .details div {
+  margin-top: 20px;
+}
+.contact-page .contact-us .details p{
+  font-family: Microsoft Sans Serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 35px;
+text-align: justified;
+
+}
+
+.contact-page .contact-us .details .data:hover {
+  box-shadow: 0 0 20px rgba(124, 136, 160, 0.25);
+  -webkit-box-shadow: 0 0 20px rgba(124, 136, 160, 0.25);
+}
+
+.contact-page .contact-us .details i {
+  font-size: 30px;
+  color: white;
+}
+.contact-page .contact-us .map {
+  margin-top: 20px;
+  height:605px;
+}
+
+@media only screen and (max-width: 767px) {
+  .contact-page .contact-us .map {
+    height: 500px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .contact-page .contact-us .map {
+    height: 350px;
+  }
+}
+
+/* contact-page end */
