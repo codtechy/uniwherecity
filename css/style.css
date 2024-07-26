@@ -1822,7 +1822,7 @@ footer hr {
 }
 
 .contact-page .contact-us .details .data:hover {
-  box-shadow: 0 0 20px rgba(124, 136, 160, 0.25);
+  box-shadow: 0 0 20px rgba(124, 136, 160, 0.25) !important;
   -webkit-box-shadow: 0 0 20px rgba(124, 136, 160, 0.25);
 }
 
@@ -2092,5 +2092,94 @@ height: 556px;
     font-size: 27px;
     line-height: 40px;
 
+  }
+}
+
+/*  */
+
+/* service page start */
+.service-page .service{
+  background: #F6F3FD;
+}
+
+.service-page .service .card .img{
+  width: 48px;
+  height: 51px;
+  border-radius: 10px;
+  background: #ffcdd7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: auto;
+}
+.service-page .service .card .img img{
+  width: 40px;
+  height: 38px;
+}
+.service-page .service .card h4{
+  font-family: Arial Rounded MT Bold;
+font-size: 18px;
+font-weight: 400;
+line-height: 23px;
+text-align: center;
+
+}
+.service-page .service .card p{
+  font-family: Microsoft Sans Serif;
+font-size: 15px;
+font-weight: 400;
+line-height: 25px;
+text-align: justify;
+
+}
+.service-page .service .card.border-bottom{
+  border-color: var(--primary-color) !important;
+}
+.service-page .service hr{
+  width: 100px;
+  height: 5px;
+  background: var(--primary-color);
+  opacity: 1;
+  margin: auto;
+}
+.service-page .service .card {
+  margin: 10px 0 10px 0;
+  height: 400px;
+  box-shadow: 0px 0px 7px 1px #00000040 !important;
+}
+@media only screen and (max-width: 1500px){
+  .service-page .service .card {
+    height: 450px;
+  }
+}
+@media only screen and (max-width: 1200px){
+  .service-page .service .card {
+    height: 500px;
+  }
+}
+@media only screen and (max-width: 992px){
+  .service-page .service .card {
+    height: 450px;
+  }
+}
+@media only screen and (max-width: 767px){
+  .service-page .service .card {
+    height: 350px;
+  }
+}
+@media only screen and (max-width: 500px){
+  .service-page .service .card {
+    height: 400px;
+  }
+}
+@media only screen and (max-width: 450px){
+  .service-page .service .card {
+    height: 450px;
+  }
+}
+@media only screen and (max-width: 470px){
+  .service-page .service .card {
+    height: 500px;
   }
 }
