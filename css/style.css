@@ -161,6 +161,55 @@ nav .nav-item img {
 }
 /* Nav Bar End */
 
+/* sidebar-icons start */
+
+.sidebar-icons{
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  z-index: 100;
+}
+.sidebar-icons .whatsapp{
+  background: var(--primary-color);
+  padding: 20px 15px 20px 30px;
+  border-radius: 50px 0px 0px 50px;
+}
+.sidebar-icons .whatsapp i{
+  font-size: 35px;
+  color: white;
+}
+
+.sidebar-icons .phone{
+  background: var(--secondary-color);
+  padding: 20px 15px 20px 30px;
+  border-radius: 50px 0px 0px 50px;
+}
+.sidebar-icons .phone i{
+  font-size: 30px;
+  color: white;
+}
+@media only screen and (max-width: 767px) {
+  .sidebar-icons .whatsapp{
+    padding: 15px 10px 15px 25px;
+    border-radius: 50px 0px 0px 50px;
+  }
+  .sidebar-icons .whatsapp i{
+    font-size: 30px;
+    color: white;
+  }
+  .sidebar-icons .phone{
+    background: var(--secondary-color);
+    padding: 15px 10px 15px 25px;
+    border-radius: 50px 0px 0px 50px;
+  }
+  .sidebar-icons .phone i{
+    font-size: 25px;
+    color: white;
+  }
+}
+/* sidebar-icons end */
+
 /* Home Section Start */
 
 .home {
