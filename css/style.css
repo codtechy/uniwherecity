@@ -1428,8 +1428,8 @@ nav .nav-item img {
     text-align: right !important;
   }
   .testimonial .img img {
-    width: 275px;
-    height: 251px;
+    width: 250px;
+    height: 310px;
     border-radius: 10px;
     margin: auto;
   }
@@ -1459,8 +1459,8 @@ nav .nav-item img {
     top: 30%;
   }
   .testimonial .img img {
-    width: 250px;
-    height: 230px;
+    width: 240px;
+    height: 280px;
     border-radius: 10px;
     margin: auto;
   }
@@ -1708,7 +1708,7 @@ footer .logo p {
   font-family: sans-serif;
   font-size: 16px;
   font-weight: 400;
-  line-height: 18.11px;
+  line-height: 25px;
   text-align: justify;
 }
 
@@ -1753,7 +1753,7 @@ footer .contacts p {
   font-family: Arial;
   font-size: 16px;
   font-weight: 400;
-  line-height: 19px;
+  line-height: 25px;
   text-align: left;
   margin-bottom: 0;
 }
@@ -1789,7 +1789,7 @@ footer hr {
   }
   footer .contacts p {
     font-size: 15px;
-    line-height: 17px;
+    line-height: 25px;
   }
   footer .copy-right {
     font-size: 15px;
